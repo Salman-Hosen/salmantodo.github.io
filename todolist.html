@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To Do List</title>
+    <link rel="stylesheet" href="todolist.css">
+</head>
+<body>
+    <h1>Your Work List</h1>
+    <ol>
+
+    </ol>
+    <div id="second">
+        <form action="">
+            <h3>Please enlist your work</h3>
+            <input type="text" id="date" placeholder="Date of your work"><br>
+            <input type="text" id="name" placeholder="Your work name"><br>
+            <button  type="submit" class="add">Add this work</button>
+            <br>
+            <label for="fontcolor">Select Your Font Color:</label>
+            <select id="fontcolor" name="Font-Color">
+                <option value="black">Black</option>
+                <option value="White">White</option>
+               
+              </select><br>
+              <label for="listcolor">Select Your List Background Color:</label>
+              <select id="listcolor" name="listcolor">
+                  <option value="random">Random</option>
+                <option value="red">Red</option>
+                <option value="blue">Blue</option>
+                <option value="green">Green</option>
+                <option value="yellow">Yellow</option>
+                <option value="purple">Purple</option>
+                <option value="orange">Orange</option>
+                <option value="pink">Pink</option>
+              </select><br>
+              <button class="mood" type="button" onclick="themecreate()">Dark Mood</button>
+           
+        </form>
+    </div>
+    
+    
+    <script src="todolist.js"></script>
+</body>
+</html>
